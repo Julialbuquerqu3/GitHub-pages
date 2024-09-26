@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagem dos Sonhos</title>
+</head>
+
+<body>
+    <header>
+        <h1 style="color: red;">Venha Realizar a Viagem dos Seus Sonhos!</h1>
+
+    </header>
+    <nav>
+        <ul>
+            <li>Pacotes</li>
+            <li>Taxa</li>
+            <li>Contato</li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Conheça nosso pacotes!</h2>
+        <p>
+            Meu primeiro parágrafo!
+            <a href="https://www.w3schools.com/tags/default.asp">Acesse o principal site de documento html!</a>
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel turpis ut lectus dapibus fermentum sed
+            eget
+            nulla. Nulla tincidunt enim non tempus varius. Sed sed tempor libero, eget commodo quam. Cras quis fermentum
+            quam. In hac habitasse platea dictumst. Nulla nec rhoncus augue. Mauris urna ipsum, aliquet id tempor eget,
+            luctus quis elit. Cras sit amet porttitor dui. Cras maximus velit tellus, sit amet vehicula eros accumsan
+            sed.
+            Duis nec elit vehicula, tempus dui eget, bibendum ipsum. Proin id euismod eros. Nulla ut sem quis libero
+            aliquam
+            eleifend. Nulla ultricies lobortis lectus id pulvinar. Interdum et malesuada fames ac ante ipsum primis in
+            faucibus. Mauris interdum enim sed accumsan ullamcorper. Aliquam sed varius erat.
+            <br><br>
+            <a href="https://www.lipsum.com/feed/html">Criação de texto para modular o seu site!</a>
+            <br><br>
+            <a href="https://prnt.sc/bqVJD4aUVM7m">Explicação elementos semanticos HTML</a>
+            <hr>
+        </p>
+        <figure>
+            <img src="/img/pacote_1.png" alt="Confira o primeiro pacote maravilhoso">
+            <figcaption>Praia</figcaption>
+
+        </figure>
+        <figure>
+            <img src="/img/pacote_2.jpeg" alt="Confira o segundo pacote maravilhoso">
+            <figcaption>Diversos</figcaption>
+        </figure>
+        <figure>
+            <img src="/img/pacote_3.jpg" alt="Confira o terceiro pacote maravilhoso">
+            <figcaption>Dicas Pacotes</figcaption>
+        </figure>
+    </section>
+    <video controls width="500px">
+        <source src="video/1110670_Amusement_Relation_1280x720.mp4" type="video/mp4">
+        Seu navegador não suporta o formato do vídeo. <a href="video/1110670_Amusement_Relation_1280x720.mp4">Clique
+            aqui para baixar</a>
+    </video>
+    <section>
+        <h2>Contato</h2>
+        <form method="GET" action="">
+            <label>Nome</label><br>
+            <input type="text" name="nome"><br><br>
+            <label>E-mail</label><br>
+            <input type="text" name="email"><br><br>
+            <!-- <label>Comentário</label><br>
+            <textarea rows="5" name="cometario"></textarea><br><br>
+            <button>Salvar</button> -->
+            <h2>Orçamento</h2>
+            <form method="GET" action="">
+
+                <fieldset>
+                    <legend>Dados da Viagem</legend>
+                    <label>Nome</label><br>
+                    <input type="text" name="nome"><br><br>
+
+                    <label>E-mail</label><br>
+                    <input type="email" name="email"><br><br>
+
+                    <label>Data de ida</label><br>
+                    <input type="date" name="dataIda"><br><br>
+
+                    <label>Data de volta</label><br>
+                    <input type="date" name="dataVolta"><br><br>
+
+                    <label>Quantidade de pessoas</label><br>
+                    <input type="number" name="qtdPessoas"><br><br>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Quais serviços deseja contratar?</legend>
+                    <label>
+                        <input type="checkbox" name="passagens" value="Passagens">Compra de passagens
+                    </label>
+                    <label>
+                        <br><input type="checkbox" name="hospedagem" value="Hospedagem">Reserva de hospedagem
+                    </label>
+                    <label>
+                        <br><input type="checkbox" name="veiculos" value="Veículo">Reserva de veículos
+                    </label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Escolha a forma de pagamento</legend>
+                    <label>
+                        <input type="radio" name="formaPagamento" value="Cartão de crédito">Cartão de Crédito
+                    </label>
+                    <label>
+                        <br><input type="radio" name="formaPagamento" value="Pix">Pix
+                    </label>
+                    <label>
+                        <br><input type="radio" name="formaPagamento" value="Boleto">Boleto
+                    </label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Escolha o prazo para pagamento</legend>
+                    <select name="prazoPagamento">
+                        <option value="aVista">Á vista</option>
+                        <option value="5x">5x sem juros</option>
+                        <option value="10x">10x com juros</option>
+                    </select>
+                </fieldset>
+
+                <br><br>
+                <label>Comentário</label><br>
+                <textarea rows="5" name="cometario"></textarea><br><br>
+                <button>Salvar</button>
+            </form>
+    </section>
+    <hr>
+    <section>
+        <h2>Taxas e serviços</h2>
+        <p>Veja nossas taxas para serviços</p>
+        <table border>
+            <caption>Descrição dos serviços e sespectivos valores</caption>
+            <thead>
+                <tr>
+                    <th>
+                        Serviços
+                    </th>
+                    <th>
+                        Valor
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Reserva de hotel
+                    </td>
+                    <td>
+                        R$150,00
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Compra de passagens
+                    </td>
+                    <td>
+                        R$100,00
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Aluguel de carros
+                    </td>
+                    <td>
+                        R$50,00
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <hr>
+    <footer>
+        <p>Desenvolvido por Júlia Albuquerque Rocha</p>
+    </footer>
+</body>
+
+</html>
